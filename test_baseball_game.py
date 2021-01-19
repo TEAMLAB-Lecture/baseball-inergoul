@@ -3,7 +3,7 @@
 import unittest
 import baseball_game as bg
 
-from mock import patch
+from unittest.mock import patch
 from io import StringIO
 
 
@@ -231,3 +231,15 @@ class TestBaseballGame(unittest.TestCase):
                     ball += 1
         result = [strikes, ball]
         return result
+
+# my test code
+# t1 = TestBaseballGame()
+# t1.test_is_digit()
+# t1.test_is_between_100_and_999()
+# t1.test_is_duplicated_number()
+# t1.test_is_validated_number()
+# t1.test_get_not_duplicated_three_digit_number()
+# t1.test_get_strikes_or_ball()
+# t1.test_is_yes()
+# t1.test_is_no()
+# t1.test_main()
